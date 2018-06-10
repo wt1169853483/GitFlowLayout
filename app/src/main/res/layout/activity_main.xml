@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+   <com.example.wangtao.day5_zhouyikao1.TitleView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/main_title"
+       app:title_left_btn="-"
+       app:title_tv="欢迎光临"
+       app:title_tight_btn="+"
+       app:title_tv_size="25dp"
+       android:background="#eeeeee"
+       ></com.example.wangtao.day5_zhouyikao1.TitleView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <com.example.wangtao.day5_zhouyikao1.FlowLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/main_flow"
+           >
+       </com.example.wangtao.day5_zhouyikao1.FlowLayout>
+    </ScrollView>
+</LinearLayout>

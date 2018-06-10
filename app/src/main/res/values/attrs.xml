@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <attr name="title_tv" format="string"></attr>
+        <attr name="title_left_btn" format="string"></attr>
+        <attr name="title_tight_btn" format="string"></attr>
+
+
+        <attr name="title_tv_size" format="dimension"></attr>
+        <attr name="title_left_btn_size" format="dimension"></attr>
+        <attr name="title_tight_btn_size" format="dimension"></attr>
+
+        <attr name="title_tv_color" format="color"></attr>
+        <attr name="title_left_btn_color" format="color"></attr>
+        <attr name="title_tight_btn_color" format="color"></attr>
+    </declare-styleable>
+    
+</resources>
